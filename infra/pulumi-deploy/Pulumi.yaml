@@ -1,0 +1,3 @@
+name: pulumi-rush
+runtime: nodejs
+description: Example of making Pulumi work with Microsoft Rush

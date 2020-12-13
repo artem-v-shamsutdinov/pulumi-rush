@@ -1,0 +1,23 @@
+{
+  "name": "@pulumi-rush/pulumi",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@types/node": "^10.0.0",
+    "builtin-modules": "^3.1.0",
+    "rollup": "^2.34.2",
+    "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.15"
+  },
+  "peerDependencies": {
+    "@pulumi-rush/ws": "1.0.0"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^2.15.4",
+    "@pulumi/aws": "^3.19.2",
+    "@pulumi/awsx": "^0.22.0"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index"
+}

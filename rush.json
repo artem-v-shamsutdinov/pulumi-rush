@@ -1,0 +1,28 @@
+{
+  // NOTE: Comments are allowed in all Rush config files :-)
+  "rushVersion": "5.34.4",
+  "pnpmVersion": "5.9.3",
+  "nodeSupportedVersionRange": ">=14.0.0 <15.0.0",
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 4,
+  
+  "projects": [
+    // "infra" folder (alphabetical order)
+    {
+      "packageName": "@pulumi-rush/pulumi",
+      "projectFolder": "infra/pulumi",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@pulumi-rush/pulumi-deploy",
+      "projectFolder": "infra/pulumi-deploy",
+      "shouldPublish": true
+    },
+    // "libs" folder (alphabetical order)
+    {
+      "packageName": "@pulumi-rush/ws",
+      "projectFolder": "libs/ws",
+      "shouldPublish": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "doitwhy-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/doitwhy/doitwhy-ts.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/doitwhy/doitwhy-ts.git/issues"
+  },
+  "homepage": "https://bitbucket.org/doitwhy/doitwhy-ts.git#readme",
+  "type": "module"
+}

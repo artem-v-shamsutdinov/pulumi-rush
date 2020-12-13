@@ -1,0 +1,12 @@
+{
+  "name": "@pulumi-rush/ws",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^12.19.9"
+  },
+  "dependencies": {
+  },
+  "main": "lib/index.js",
+  "type": "module",
+  "typings": "lib/index"
+}
